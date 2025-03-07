@@ -1,11 +1,11 @@
 import React from 'react';
-import LoaderCard from '../components/cards/LoaderCard';
+import Search from '../components/forms/Search';
 
 
 export default function Dashboard(props){
     return(
         <>
-        <LoaderCard LoaderName="Test Loader" ipAddr="54.145.67.213" info="Last RPS: 40"/>
+        <Search />
         </>
     )
 }

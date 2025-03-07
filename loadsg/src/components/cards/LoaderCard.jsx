@@ -5,7 +5,7 @@ import BasicButton from '../buttons/BasicButton';
 export default function LoaderCard(props) {
     return (
         <>
-            <div className="rounded-md box-border pt-8 pb-5 pr-8 pl-5 bg-gray-900 text-white hover:bg-gray-950 
+            <div className="size-40 rounded-md box-border pt-8 pb-5 pr-8 pl-5 bg-gray-900 text-white hover:bg-gray-950 
                                         focus:outline-hidden focus:bg-black-700">
                 
                 <div className="align-left">
