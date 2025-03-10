@@ -1,11 +1,11 @@
 import React from 'react';
-import Search from '../components/forms/Search';
+import NavBarWithSearch from './navbar/navBarWithSearch';
 
 
 export default function Dashboard(props){
     return(
         <>
-        <Search />
+        <NavBarWithSearch></NavBarWithSearch>
         </>
     )
 }

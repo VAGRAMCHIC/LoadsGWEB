@@ -15,3 +15,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  @apply font-mono text-lg text-gray-300; /* замените на нужный цвет */
+}
+
+
+button {
+  @apply font-mono text-lg text-gray-300; /* замените на нужный цвет */
+}
+
+input {
+  @apply font-mono text-lg text-gray-300; /* замените на нужный цвет */
+}
