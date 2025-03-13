@@ -1,5 +1,5 @@
 import React from 'react';
-import LoaderCard from '../components/cards/LoaderCard';
+import LoaderCard from '../../components/cards/LoaderCard';
 
 export default function TestPage(props){
     return(

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import NoBorderButton from '../../components/buttons/NoBorderButton';
+import NoBorderButtonLink from '../../components/buttons/NoBorderButtonLink';
 import Search from '../../components/forms/Search';
 
 export default function NavBarWithSearch(props) {
@@ -16,14 +16,12 @@ export default function NavBarWithSearch(props) {
           <div className='flex-grow pt-2'>
             <Search></Search>
           </div>
-          <div className='flex justify-around pl-4'>
-            <NoBorderButton label="Dashboard"></NoBorderButton>
-            <NoBorderButton label="Loaders"></NoBorderButton>
-            <NoBorderButton label="Test"></NoBorderButton>
-            <NoBorderButton label="Login"></NoBorderButton>
-            <NoBorderButton label="Settings"></NoBorderButton>
-            <NoBorderButton label="Account"></NoBorderButton>
-
+          <div className='flex'>
+                <NoBorderButtonLink label="Dashboard" link="/"></NoBorderButtonLink>
+                <NoBorderButtonLink label="Loaders" link="/loaders"></NoBorderButtonLink>
+                <NoBorderButtonLink label="Test" link="/test"></NoBorderButtonLink>
+                <NoBorderButtonLink label="Settings" link="/settings"></NoBorderButtonLink>
+                <NoBorderButtonLink label="Account" link="/account"></NoBorderButtonLink>
 
           </div>
         </div>
